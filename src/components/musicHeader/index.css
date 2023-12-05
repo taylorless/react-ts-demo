@@ -1,0 +1,28 @@
+.musicHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: #242424;
+  color: #ffffff;
+}
+.title {
+  cursor: pointer;
+}
+.menu {
+  /* display: flex; */
+}
+ul li {
+  display: inline-block;
+  min-width: 120px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ccc;
+}
+ul li:hover {
+  color: #fff;
+  background: #242424;
+}
