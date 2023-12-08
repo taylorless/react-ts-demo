@@ -4,16 +4,17 @@ import { Button, Input } from "antd";
 import { headerLinks } from "../../common/localData";
 import "./index.css";
 
-interface menuList {
-  id: number;
-  title: string;
-  router: string;
-  children?: any;
-}
+// interface menuList {
+//   id: number;
+//   title: string;
+//   router: string;
+//   children?: [];
+// }
 
 function MusicHeader() {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
+    console.log(1);
     setIsActive((current) => !current);
   };
 
